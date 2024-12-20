@@ -14,6 +14,6 @@ Footer();
 linkPage("#homelink", Home); // only onClick change
 linkPage("#projectslink", Projects);  // only onClick change
 
-Home(); // De base saldra Home 
+Home(); // the base is this
 
 
