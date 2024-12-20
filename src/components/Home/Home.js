@@ -90,7 +90,7 @@ const skills = (data) => {
 
 
 
-const Home = (data) => {
+const Home = () => {
   const main = document.querySelector("main");
   cleanPage(main);
 

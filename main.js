@@ -11,10 +11,9 @@ Header(data);
 Footer();
 
 
+linkPage("#homelink", Home); // only onClick change
+linkPage("#projectslink", Projects);  // only onClick change
 
+Home(); // De base saldra Home 
 
-linkPage("#homelink", Home);
-linkPage("#projectslink", Projects);
-
-Home(data);
 
