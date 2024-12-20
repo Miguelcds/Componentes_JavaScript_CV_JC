@@ -1,0 +1,114 @@
+
+main{
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    /* position: relative; */
+
+}
+
+h2{
+    font-size: 200px;
+
+}
+
+
+@media (max-width: 700px ) {
+    h2{
+        font-size: 60px;
+    }
+}
+
+h3{
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+h2, h3{
+
+    font-weight: bold;
+    background: linear-gradient(45deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+#aboutMeContainer{
+    margin-top: 2px;
+    margin-bottom: 100px;
+
+}
+
+/* #education{
+    border: 3px solid red;
+    width: 100%;
+} */
+
+#ulEducation , #ulExperience{
+    /* border: 3px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+#skills {
+    margin-bottom: 40px;
+}
+
+#ulSkills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,2fr));
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    align-content: center;
+    gap: 10px;
+
+    
+}
+
+#ulSkills > li{
+    width: 100%;
+    padding: 4px;
+    height: auto;
+    font-weight: bold;
+    transition: 0.6s;
+
+}
+
+#ulSkills > li:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+@media (max-width: 700px) {
+    #ulSkills > li:hover{
+        transform: none;
+    }
+}
+
+
+#ulEducation > li, #ulExperience > li {
+    width: 100%;
+    height: auto;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-bottom: 40px;
+    
+    /* border: 3px solid red; */
+
+    
+}
+
+
+
+
+

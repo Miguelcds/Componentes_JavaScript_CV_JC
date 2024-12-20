@@ -1,0 +1,14 @@
+footer{
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer > p{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.342);
+    /* text-align: center; */
+}
