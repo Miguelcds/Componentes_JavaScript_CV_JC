@@ -7,8 +7,42 @@ const Projects = () => {
     cleanPage(main);
 
     main.innerHTML = `
-    <p> hola perro<p>
+    <section id="projectsContainer"></section>
     `;
+
+    projectsDeployment(data);
+
+
 };
+
+
+const projectsDeployment = (data) => {
+
+    const section = document.querySelector("#projectsContainer")
+
+    section.innerHTML +=`
+    <div>
+    <h3> Projects </h3>
+    <ul id="ulProjects"></ul>
+    </div>
+    `
+
+    const ul = document.querySelector("#ulProjects")
+
+    for (const element of data.projects) {
+        ul.innerHTML +=`
+        <li id="liProjects">
+        <h4> Title : ${element.title} <h4>
+        
+        `
+    }
+
+}
+
+
+
+
+
+
 
 export default Projects;
