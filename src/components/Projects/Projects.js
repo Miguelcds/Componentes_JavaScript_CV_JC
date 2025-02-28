@@ -57,9 +57,9 @@ const prevSlide = () => {
 // Inicializa el carrusel mostrando la primera diapositiva
 showSlide(currentIndex);
 
- // Añade los event listeners a los botones
- document.getElementById('prevBtn').addEventListener('click', prevSlide);
- document.getElementById('nextBtn').addEventListener('click', nextSlide);
+
+document.getElementById('prevBtn').addEventListener('click', prevSlide);
+document.getElementById('nextBtn').addEventListener('click', nextSlide);
 
 
 
