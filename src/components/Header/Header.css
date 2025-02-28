@@ -36,7 +36,7 @@ header {
   } */
 
 
-h1,img, nav{
+h1,#imgCV, nav{
     position: relative;
     z-index: 1;
 }
@@ -57,7 +57,8 @@ h1 {
 }
 
 
-img {
+
+#imgCv {
   border-radius: 100%;
   width: 200px;
   height: 200px;
@@ -122,7 +123,7 @@ a:hover {
   
 }
 
-img:hover{
+#imgCv:hover{
     transition: 1s;
     filter: none;
     transform: scale(1.2);

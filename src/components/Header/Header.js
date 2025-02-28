@@ -11,7 +11,7 @@ const Header = (data) => {
     <source src="./fondocvv.mp4" type="video/mp4">
 </video>
     <h1>C.V J.COSTA</h1>
-      <img src="${data.avatar}" alt="ImagenCv">
+      <img id="imgCv" src="${data.avatar}" alt="ImagenCv">
       <nav>
         <ul id="ulContent">
           <li>

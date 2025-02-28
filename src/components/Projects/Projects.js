@@ -2,42 +2,77 @@ import "./Projects.css";
 import data from "../Data_JC/Data_JC";
 import cleanPage from "../../../utils/cleanPage";
 
+let currentIndex = 0;
+
+
 const Projects = () => {
     const main = document.querySelector("main");
     cleanPage(main);
-
+  
     main.innerHTML = `
-    <section id="projectsContainer"></section>
-    `;
-
-    projectsDeployment(data);
-
-
-};
+      <div class="carousel" >
+      <div class="carousel-inner" id="project-inner"></div>
+      <button class="carousel-control prev" id="prevBtn">&#10094;</button>
+      <button class="carousel-control next" id="nextBtn">&#10095;</button>
+      `;
 
 
-const projectsDeployment = (data) => {
-
-    const section = document.querySelector("#projectsContainer")
-
-    section.innerHTML +=`
-    <div>
-    <h3> Projects </h3>
-    <ul id="ulProjects"></ul>
-    </div>
-    `
-
-    const ul = document.querySelector("#ulProjects")
-
+      const carouselContent = document.getElementById("project-inner");
+    
     for (const element of data.projects) {
-        ul.innerHTML +=`
-        <li id="liProjects">
-        <h4> Title : ${element.title} <h4>
-        
-        `
+      const divElementProject = document.createElement("div");
+    
+      divElementProject.classList.add("carousel-item");
+    
+      divElementProject.innerHTML = `
+            <img id="imgProjects" src="${element.image}" alt="${element.title}">
+            <div class="carousel-caption">
+                <h3>${element.title}</h3>
+                <p>${element.description}</p>
+                <a href="${element.link}">Link Project</a>
+            </div>
+            `;
+      carouselContent.appendChild(divElementProject);
     }
 
-}
+
+const slides = document.querySelectorAll(".carousel-item");
+const totalSlides = slides.length;
+
+const showSlide = (index) => {
+  const offset = -index * 100;
+  carouselContent.style.transform = `translateX(${offset}%)`;
+};
+
+const nextSlide = () => {
+  currentIndex = (currentIndex + 1) % totalSlides;
+  showSlide(currentIndex);
+};
+
+const prevSlide = () => {
+  currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+  showSlide(currentIndex);
+};
+
+// Inicializa el carrusel mostrando la primera diapositiva
+showSlide(currentIndex);
+
+ // Añade los event listeners a los botones
+ document.getElementById('prevBtn').addEventListener('click', prevSlide);
+ document.getElementById('nextBtn').addEventListener('click', nextSlide);
+
+
+
+
+  
+  };
+
+
+
+
+
+
+
 
 
 

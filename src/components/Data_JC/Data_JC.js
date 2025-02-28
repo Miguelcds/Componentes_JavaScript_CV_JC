@@ -75,6 +75,7 @@ const data = {
       link: "http://github.com/#",
       preview:
         "https://plus.unsplash.com/premium_photo-1684785618727-378a3a5e91c5?auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZWNvbW1lcmNlfGVufDB8fDB8fHww&w=500",
+      image:"./CVProfile.jpg" 
     },
     {
       title: "Blog Platform",
