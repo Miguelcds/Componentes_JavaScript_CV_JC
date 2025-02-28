@@ -9,7 +9,7 @@ main{
 }
 
 h2{
-    font-size: 120px;
+    font-size: 100px;
 
 }
 
@@ -37,10 +37,16 @@ h2, h3{
 }
 
 #aboutMeContainer{
+    width: 100%;
     margin-top: 2px;
+    padding: 0 100px;
     margin-bottom: 100px;
 
 }
+
+
+
+
 
 /* #education{
     border: 3px solid red;
@@ -84,6 +90,13 @@ h2, h3{
 }
 
 @media (max-width: 700px) {
+
+    #aboutMeContainer{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+
     #ulSkills > li:hover{
         transform: none;
     }

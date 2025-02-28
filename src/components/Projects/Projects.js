@@ -54,7 +54,6 @@ const prevSlide = () => {
   showSlide(currentIndex);
 };
 
-// Inicializa el carrusel mostrando la primera diapositiva
 showSlide(currentIndex);
 
 
@@ -63,8 +62,6 @@ document.getElementById('nextBtn').addEventListener('click', nextSlide);
 
 
 
-
-  
   };
 
 
