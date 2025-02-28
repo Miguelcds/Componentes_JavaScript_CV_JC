@@ -4,16 +4,16 @@ const data = {
   email: "miguel-cds@hotmail.com",
   avatar: "./CVProfile.jpg",
   aboutMe:
-    "Hola!, mi nombre es Joao, aunque se refieren a mi como Juan. Naci en Lisboa, criado en Fuerteventura y crecido en Bilbao. Actualmente soy estudiante de Desarrollo Web y trabajo de Tecnico para el CABB en Bilbao. Entre mi Hobbys destaca mi pasion por la musica, sobre todo por la Bateria, funcion que desempeño en mi Grupo Linea de Costa, tambien en los deportes como en futbol y actualmente me esta dando por el Padel. Decidi meterme en el mundo de la programacion puesto que es algo que siempre me ha apasionado, pero la vida no me ha permitido desarrollar hasta ahora, por lo que me he lanzado de lleno a por ello para poder desenvolver los conocimientos y aptitudes necesarios para trabajar.",
+    "Hola!, mi nombre es Joao, aunque se refieren a mi como Juan. Naci en Lisboa, criado en Fuerteventura y crecido en Bilbao. Actualmente soy estudiante de Desarrollo Web. Decidi meterme en el mundo de la programacion puesto que es algo que siempre me ha apasionado, pero la vida no me ha permitido desarrollar hasta ahora, por lo que me he lanzado de lleno a por ello para poder desenvolver los conocimientos y aptitudes necesarios para trabajar. Entre mi Hobbys destaca mi pasion por la musica, sobre todo por la Bateria, funcion que desempeño en mi Grupo Linea de Costa, tambien en los deportes como en futbol y actualmente me esta dando por el Padel.",
 
   aboutMe_English:
-    "Hello! My name is João (or Juan, as some people call me), and I was born in Lisbon. I grew up in Fuerteventura and later moved to Bilbao. Currently, I`m a student of Web Development and work as a Technician for CABB in Bilbao. One of my hobbies that stands out is my passion for music, particularly the drums, where I perform with my group Linea de Costa, as well as sports such as football and currently taking up padel. I decided to get into the world of programming because it's something that has always fascinated me, but life hasn't allowed me to develop it until now, so I've taken a leap of faith to learn and develop the necessary knowledge and skills to work in this field.",
+    "Hello! My name is João (or Juan, as some people call me), and I was born in Lisbon. I grew up in Fuerteventura and later moved to Bilbao. Currently, I`m a student of Web Development. I decided to get into the world of programming because it's something that has always fascinated me, but life hasn't allowed me to develop it until now, so I've taken a leap of faith to learn and develop the necessary knowledge and skills to work in this field. One of my hobbies that stands out is my passion for music, particularly the drums, where I perform with my group Linea de Costa, as well as sports such as football and currently taking up padel. ",
 
   education: [
     {
       degree: "FP Web Development",
       university: "The Power Fp",
-      graduationYear: 2025,
+      graduationYear: 2026,
       honors: "Summa Cum Laude",
       relevantCourses: [
         " Web Development Fundamentals",
