@@ -62,7 +62,10 @@ const data = {
     "MongoDB",
     "RESTful API",
     "Git",
-    "Frontend and Backend Development",
+    "Frontend and Backend",
+    "Java",
+    "SQL",
+    "Bootstrap"
   ],
   projects: [
     {
