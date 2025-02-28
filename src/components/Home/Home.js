@@ -8,7 +8,7 @@ const aboutMe = (data) => {
 
   section.innerHTML += `
     <div id="aboutMeContainer">
-    <h2> About Me </h2>
+    <h2>Hello!</h2>
     <p>${data.aboutMe_English}<p>
     </div>
     `;

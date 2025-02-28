@@ -1,14 +1,36 @@
+
 footer{
-    text-align: center;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.342);
+    height: 100px;
+    /* margin: 2rem 0; */
+
 }
 
-footer > p{
-    width: 100%;
-    height: auto;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.342);
-    /* text-align: center; */
+footer > h2 > a{
+    display: flex;
+    margin: 20px;
+    font-size: 30px;
 }
+
+footer > div {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 770px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding: 0 2rem;
+        gap: 2rem;
+        
+        
+    }
+}
+
+
+
